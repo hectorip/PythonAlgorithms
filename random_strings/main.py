@@ -5,7 +5,7 @@ alphabet = "ABCDEFGHIJKLMNOPRSTUVWCYZ"
 a_size = len(alphabet) - 1 
 count = int(sys.argv[1])
 try:
-    max_size = sys.argv[2]
+    max_size = int(sys.argv[2])
 except:
     max_size = 1000
 results = []
